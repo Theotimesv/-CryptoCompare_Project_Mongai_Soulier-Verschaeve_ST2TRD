@@ -1,0 +1,15 @@
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\bin\Release\CryptoCompare_Project.exe.config
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\bin\Release\CryptoCompare_Project.exe
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\bin\Release\CryptoCompare_Project.pdb
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare-Project.csprojAssemblyReference.cache
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\MainWindow.g.cs
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\App.g.cs
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare_Project_MarkupCompile.cache
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare_Project_MarkupCompile.lref
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\MainWindow.baml
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare_Project.g.resources
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare_Project.Properties.Resources.resources
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare-Project.csproj.GenerateResource.cache
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare-Project.csproj.CoreCompileInputs.cache
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare_Project.exe
+C:\Users\theot\OneDrive\Bureau\Semestre 9\Trading C#\Projet\CryptoCompare-Project\CryptoCompare-Project\obj\Release\CryptoCompare_Project.pdb
