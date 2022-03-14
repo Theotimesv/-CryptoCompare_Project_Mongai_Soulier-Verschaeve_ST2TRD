@@ -1,0 +1,1 @@
+# -CryptoCompare_Project_Mongai_Soulier-Verschaeve_ST2TRD
