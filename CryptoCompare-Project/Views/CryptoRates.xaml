@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="CryptoCompare_Project.Views.CryptoRates"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="600" d:DesignWidth="900" Background="#FF273655">
+    <Canvas HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100">
+        <StackPanel Height="500" Canvas.Top="103.444" Width="170" Canvas.Left="0.667" Background="#FF353F4E">
+            <Button
+                    Content="Homepage"
+                    Foreground="Beige"
+                    Command="{Binding GotoHomePageCommand}"          
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="170" Height="40" Background="#FF353F4E" BorderBrush="#FF273655"/>
+
+            <Button
+                    Content="Crypto Rates"
+                    Foreground="Beige"
+                    Command="{Binding GotoCryptoRatesCommand}"          
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="170" Height="40" Background="#FF353F4E" BorderBrush="#FF273655" Margin="0"/>
+            <Button
+                    Content="Variations"
+                    Foreground="Beige"
+                    Command="{Binding GotoVariationsCommand}"          
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="170" Height="40" Background="#FF353F4E" BorderBrush="#FF273655"/>
+            <Button
+                Content="Notifications"
+                Foreground="Beige"
+                Command="{Binding GotoNotificationsCommand}"          
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="170" Height="40" Background="#FF353F4E" BorderBrush="#FF273655"/>
+        </StackPanel>
+        <StackPanel Height="100" Canvas.Top="2" Width="900" Background="#FF353F4E" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="myCrypto" HorizontalAlignment="Center" FontSize="24" FontFamily="Impact" Margin="394.833,0,394.197,0" VerticalAlignment="Center" Width="110.97" Foreground="Beige"/>
+            <Label Content="Crypto Rates Graphs" HorizontalAlignment="Center" FontSize="16" Margin="366.833,0,366.863,0" Width="166.304" FontWeight="Bold" Foreground="Beige"/>
+        </StackPanel>
+        <StackPanel Height="500" Canvas.Top="99" Width="170" Canvas.Left="730" Background="#FF353F4E"/>
+        
+        <Grid Width="540" Height="490" Canvas.Left="180" Canvas.Top="107">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*"/>
+                <ColumnDefinition Width="25*"/>
+                <ColumnDefinition Width="25*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            
+            <ComboBox Grid.Column="0" Grid.Row="1" x:Name="Crypto1" Height="50" Width="150" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" SelectedIndex="0" DropDownClosed="Crypto1_DropDownClosed">
+                <ComboBoxItem Content="BTC"/>
+                <ComboBoxItem Content="ETH"/>
+                <ComboBoxItem Content="USDT"/>
+                <ComboBoxItem Content="BNB"/>
+                <ComboBoxItem Content="USDC"/>
+                <ComboBoxItem Content="ADA"/>
+                <ComboBoxItem Content="SOL"/>
+                <ComboBoxItem Content="XRP"/>
+                <ComboBoxItem Content="LUNA"/>
+                <ComboBoxItem Content="DOT"/>
+                <ComboBoxItem Content="DOGE"/>
+                <ComboBoxItem Content="AVAX"/>
+            </ComboBox>
+            <ComboBox Grid.Column="1" Grid.Row="1" x:Name="Crypto2" Height="50" Width="150" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" SelectedIndex="0" DropDownClosed="Crypto2_DropDownClosed">
+                <ComboBoxItem Content="ETH"/>
+                <ComboBoxItem Content="BTC"/>
+                <ComboBoxItem Content="USDT"/>
+                <ComboBoxItem Content="BNB"/>
+                <ComboBoxItem Content="USDC"/>
+                <ComboBoxItem Content="ADA"/>
+                <ComboBoxItem Content="SOL"/>
+                <ComboBoxItem Content="XRP"/>
+                <ComboBoxItem Content="LUNA"/>
+                <ComboBoxItem Content="DOT"/>
+                <ComboBoxItem Content="DOGE"/>
+                <ComboBoxItem Content="AVAX"/>
+            </ComboBox>
+            <ComboBox Grid.Column="2" Grid.Row="1" x:Name="Period" Height="50" Width="150" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" SelectedIndex="0" DropDownClosed="Period_DropDownClosed">
+                <ComboBoxItem Content="Daily"/>
+                <ComboBoxItem Content="Weekly"/>
+                <ComboBoxItem Content="Monthly"/>
+                <ComboBoxItem Content="Yearly"/>
+            </ComboBox>
+            <WpfPlot x:Name="WpfPlot1" Grid.ColumnSpan="3" Grid.Column="0" Width="474" Background="#FF2C3B5E" />
+        </Grid>
+    </Canvas>
+</UserControl>
